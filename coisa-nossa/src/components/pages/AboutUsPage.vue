@@ -3,7 +3,7 @@
 </template>
 <script>
 export default {
-    name: "FooterComponent"
+    name: "AboutUsPage"
 }
 </script>
 <style>
