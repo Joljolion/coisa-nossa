@@ -1,5 +1,6 @@
 import AboutUsPage from "./components/pages/AboutUsPage.vue";
 import ContactPage from "./components/pages/ContactPage.vue";
+import HomePage from "./components/pages/HomePage.vue";
 import LoginPage from "./components/pages/LoginPage.vue";
 
 const routes = [
