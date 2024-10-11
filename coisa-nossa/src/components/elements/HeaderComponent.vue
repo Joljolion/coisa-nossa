@@ -1,5 +1,9 @@
 <template>
-  
+  <nav>
+    <menu>
+        
+    </menu>
+  </nav>
 </template>
 
 <script>
