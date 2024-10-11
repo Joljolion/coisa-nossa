@@ -1,21 +1,12 @@
 <template>
 
-<HeaderComponent/>
-<ContentComponent/>
-<FooterComponent/>
+<div><h1>aaaaaaa</h1></div>
 
 </template>
-<script>
-import ContentComponent from './components/elements/ContentComponent.vue';
-import FooterComponent from './components/elements/FooterComponent.vue';
-import HeaderComponent from './components/elements/HeaderComponent.vue';
 
-
-export default {
-    name: "HomePage"
-}
-
-</script>
 <style>
-
+ h1{
+  background-color: aliceblue;
+  color: aqua;
+ }
 </style>

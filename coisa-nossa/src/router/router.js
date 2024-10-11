@@ -1,4 +1,3 @@
-import App from "./App.vue";
 import AboutUsPage from "./components/pages/AboutUsPage.vue";
 import ContactPage from "./components/pages/ContactPage.vue";
 import HomePage from "./components/pages/HomePage.vue";
@@ -17,8 +16,8 @@ const routes = [
     },
     {
         path: '/',
-        name: 'Home',
-        component: App
+        name: 'Homepage',
+        component: HomePage
     },
     {
         path: '/about',
