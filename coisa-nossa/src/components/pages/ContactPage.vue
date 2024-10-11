@@ -1,9 +1,16 @@
 <template>
-
+    <div>
+        <h1>Aaaaaaa</h1>
+    </div>
 </template>
 <script>
 export default {
-    name: "ContactPage"
+    data(){
+
+    },
+    methods: {
+        
+    }
 }
 </script>
 <style>

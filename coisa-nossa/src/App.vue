@@ -10,10 +10,8 @@
 
 <script>
 
-
-
 export default {
-    name: "HomePage"
+    name: "App"
 }
 
 </script>
