@@ -1,21 +1,31 @@
 <template>
-
-<HeaderComponent/>
-<ContentComponent/>
-<FooterComponent/>
+    <div>
+        <nav>
+            <router-link  to="/">Inicio</router-link>
+            <router-link to="/about">Sobre nós</router-link>
+        </nav>
+    </div>
+<RouterView/>
 
 </template>
-<script>
-import ContentComponent from './components/elements/ContentComponent.vue';
-import FooterComponent from './components/elements/FooterComponent.vue';
-import HeaderComponent from './components/elements/HeaderComponent.vue';
 
+<script>
 
 export default {
-    name: "HomePage"
+    name: 'App',
 }
 
 </script>
 <style>
+ *{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        padding: 0px;
+        margin: 0px;
+    }
 
+    nav{
+        width: 100vw;
+        background-color: cornflowerblue;
+    }
 </style>
