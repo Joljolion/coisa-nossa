@@ -1,5 +1,4 @@
 <template>
-  <HeaderComponent></HeaderComponent>
 <div>
   <nav>
     <router-link to="/home">Início</router-link>
@@ -9,8 +8,6 @@
 </template>
 
 <script>
-import HeaderComponent from './components/elements/HeaderComponent.vue';
-
 
 export default {
     name: "App"
