@@ -1,9 +1,9 @@
 <template>
-  
+
 </template>
 <script>
 export default {
-    name: "HeaderComponent"
+    name: "ContactPage"
 }
 </script>
 <style>
